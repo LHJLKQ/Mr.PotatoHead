@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    //body
+    <ImageView
+        android:id="@+id/body"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:src="@drawable/body"
+        android:layout_centerHorizontal="true">
+    </ImageView>
+    //arm
+    <ImageView
+        android:id="@+id/arm"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:src="@drawable/arms"
+        android:layout_centerHorizontal="true">
+    </ImageView>
+    //ears
+    <ImageView
+        android:id="@+id/ears"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:src="@drawable/ears"
+        android:layout_centerHorizontal="true">
+    </ImageView>
+    //eyebrows
+    <ImageView
+        android:id="@+id/eyebrows"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:src="@drawable/eyebrows"
+        android:layout_centerHorizontal="true">
+    </ImageView>
+    //eyes
+    <ImageView
+        android:id="@+id/eyes"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:src="@drawable/eyes"
+        android:layout_centerHorizontal="true">
+    </ImageView>
+
+    //glasses
+    <ImageView
+        android:id="@+id/glasses"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:src="@drawable/glasses"
+        android:layout_centerHorizontal="true">
+    </ImageView>
+
+    //hat
+    <ImageView
+        android:id="@+id/hat"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:src="@drawable/hat"
+        android:layout_centerHorizontal="true">
+    </ImageView>
+
+    //mouth
+    <ImageView
+        android:id="@+id/mouth"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:src="@drawable/mouth"
+        android:layout_centerHorizontal="true">
+    </ImageView>
+
+    //mustache
+    <ImageView
+        android:id="@+id/mustache"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:src="@drawable/mustache"
+        android:layout_centerHorizontal="true">
+    </ImageView>
+
+    //nose
+    <ImageView
+        android:id="@+id/nose"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:src="@drawable/nose"
+        android:layout_centerHorizontal="true">
+    </ImageView>
+
+    //shoes
+    <ImageView
+        android:id="@+id/shoes"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:src="@drawable/shoes"
+        android:layout_centerHorizontal="true">
+    </ImageView>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
+        //CheckBox
+        //hat btn
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorPrimary"
+            android:backgroundTint="@color/colorPrimary"
+            android:buttonTint="@color/colorPrimary"
+            android:layout_marginTop="400dp"
+            android:layout_marginLeft="100dp"
+            android:hint="hat"
+            android:id="@+id/_hat">
+        </CheckBox>
+
+        //mouth  btn
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorPrimary"
+            android:backgroundTint="@color/colorPrimary"
+            android:buttonTint="@color/colorPrimary"
+            android:layout_marginTop="430dp"
+            android:layout_marginLeft="100dp"
+            android:hint="mouth"
+            android:id="@+id/_mouth">
+        </CheckBox>
+
+        //mustache  btn
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorPrimary"
+            android:backgroundTint="@color/colorPrimary"
+            android:buttonTint="@color/colorPrimary"
+            android:layout_marginTop="460dp"
+            android:layout_marginLeft="100dp"
+            android:hint="mustache"
+            android:id="@+id/_mustache">
+        </CheckBox>
+
+        //nose  btn
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorPrimary"
+            android:backgroundTint="@color/colorPrimary"
+            android:buttonTint="@color/colorPrimary"
+            android:layout_marginTop="490dp"
+            android:layout_marginLeft="100dp"
+            android:hint="nose"
+            android:id="@+id/_nose">
+        </CheckBox>
+
+        //shoes  btn
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorPrimary"
+            android:backgroundTint="@color/colorPrimary"
+            android:buttonTint="@color/colorPrimary"
+            android:layout_marginTop="520dp"
+            android:layout_marginLeft="100dp"
+            android:hint="shoes"
+            android:id="@+id/_shoes">
+        </CheckBox>
+        //arms btn
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorPrimary"
+            android:backgroundTint="@color/colorPrimary"
+            android:buttonTint="@color/colorPrimary"
+            android:layout_marginTop="400dp"
+            android:hint="arms"
+            android:id="@+id/_arms">
+        </CheckBox>
+
+        //ears  btn
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorPrimary"
+            android:backgroundTint="@color/colorPrimary"
+            android:buttonTint="@color/colorPrimary"
+            android:layout_marginTop="430dp"
+            android:hint="ears"
+            android:id="@+id/_ears">
+        </CheckBox>
+
+        //eyebrows  btn
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorPrimary"
+            android:backgroundTint="@color/colorPrimary"
+            android:buttonTint="@color/colorPrimary"
+            android:layout_marginTop="460dp"
+            android:hint="eyebrows"
+            android:id="@+id/_eyebrows">
+        </CheckBox>
+
+        //eyes  btn
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorPrimary"
+            android:backgroundTint="@color/colorPrimary"
+            android:buttonTint="@color/colorPrimary"
+            android:layout_marginTop="490dp"
+            android:hint="eyes"
+            android:id="@+id/_eyes">
+        </CheckBox>
+
+        //glasses  btn
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorPrimary"
+            android:backgroundTint="@color/colorPrimary"
+            android:buttonTint="@color/colorPrimary"
+            android:layout_marginTop="520dp"
+            android:hint="glasses"
+            android:id="@+id/_glasses">
+        </CheckBox>
+    </RelativeLayout>
+
+
+</RelativeLayout>
